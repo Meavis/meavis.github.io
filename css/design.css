@@ -9,6 +9,8 @@ body{
 
 header{
   background-image: url("./images/header space.png");
+  width: 1500px;
+  height: 500px;
 }
 
 article{
