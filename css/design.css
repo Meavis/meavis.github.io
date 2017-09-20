@@ -13,12 +13,20 @@ header{
   height: 350px;
 }
 
+section{
+  border: 2px;
+  border-style: solid;
+  border-color: #8d99ae;
+  margin: 2px;
+  padding: 5px;
+}
+
 article{
   color: #f8f32b;
 }
 
 h1{
-  color: #8d99ae;
+  color: #ffffff;
 }
 
 p{
