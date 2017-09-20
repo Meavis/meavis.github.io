@@ -1,6 +1,7 @@
 *{
   margin: 0px;
   pading: 0px;
+  color: #f8f32b;
 }
 
 body{
@@ -24,15 +25,15 @@ section{
   text-align: justify;
 }
 
-article{
-  color: #f8f32b;
+a{
+  color: #2b2d42;
+}
+
+a:hover{
+  color: #8d99ae; 
 }
 
 h1{
   font-size: 300%;
   color: #ffffff;
-}
-
-p{
-  color: #f8f32b;
 }
