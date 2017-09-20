@@ -15,11 +15,13 @@ header{
 }
 
 section{
+  width: 750px;
   border: 2px;
   border-style: solid;
   border-color: #8d99ae;
   margin: 2px;
   padding: 5px;
+  text-align: justify;
 }
 
 article{
@@ -27,6 +29,7 @@ article{
 }
 
 h1{
+  font-size: 300%;
   color: #ffffff;
 }
 
