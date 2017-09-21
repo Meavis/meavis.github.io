@@ -65,6 +65,12 @@ section{
   transition: 0.5s;
 }
 
+#fixMenubtn{
+  position: absolute;
+  height: 5%;
+  width: 5%;
+}
+
 a{
   color: #f8f32b;
 }
