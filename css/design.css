@@ -1,11 +1,11 @@
 *{
   margin: 0px;
   pading: 0px;
-  color: #f8f32b;
+  color: #000000;
 }
 
 body{
-  background-color: #000000;
+  background-color: #2b2d42;
   font-family: "Lucida Console", Monaco, monospace;
   transition: margin-left .5s;
 }
@@ -66,11 +66,11 @@ section{
 }
 
 a{
-  color: #2b2d42;
+  color: #f8f32b;
 }
 
 a:hover{
-  color: #8d99ae;
+  color: #ffffff;
 }
 
 h1{
