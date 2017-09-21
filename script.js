@@ -14,5 +14,5 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.body.style.marginLeft= "0";
-    document.body.style.backgroundColor = "#000000";
+    document.body.style.backgroundColor = "#8d99ae";
 }

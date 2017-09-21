@@ -5,7 +5,7 @@
 }
 
 body{
-  background-color: #2b2d42;
+  background-color: #8d99ae;
   font-family: "Lucida Console", Monaco, monospace;
   transition: margin-left .5s;
 }
@@ -20,7 +20,7 @@ section{
   width: 750px;
   border: 2px;
   border-style: solid;
-  border-color: #8d99ae;
+  border-color: #2b2d42;
   margin: 2px;
   padding: 5px;
   text-align: justify;
