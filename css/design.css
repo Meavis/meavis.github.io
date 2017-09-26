@@ -10,7 +10,7 @@ body{
   transition: margin-left .5s;
 }
 
-main{
+#main{
   transition: opacity .5s;
 }
 
