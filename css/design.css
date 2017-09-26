@@ -27,8 +27,11 @@ footer{
   bottom: 0;
   width: 100%;
   text-align: center;
-  color: #f8f32b;
   background-color: #000000;
+}
+
+footer p{
+  color: #ffffff;
 }
 
 section{
