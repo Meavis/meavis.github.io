@@ -10,6 +10,10 @@ body{
   transition: margin-left .5s;
 }
 
+main{
+  transition: opacity .5s;
+}
+
 header{
   background-image: url("./images/header avengers.png");
   background-size: contain;
