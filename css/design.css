@@ -22,6 +22,15 @@ header{
   text-align: center;
 }
 
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #f8f32b;
+  background-color: #000000;
+}
+
 section{
   width: 750px;
   border: 2px;
