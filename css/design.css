@@ -43,11 +43,10 @@ footer p{
 
 section{
   width: 750px;
-  /*border: 2px;
+  border: 2px;
   border-style: solid;
   border-color: #011936;
-  border-radius: 0 25px;*/
-  background-color: #011936;
+  border-radius: 0 25px;
   margin: 3px auto;
   padding: 5px 10px;
   text-align: justify;
