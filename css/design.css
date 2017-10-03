@@ -26,6 +26,7 @@ footer{
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 20px;
   text-align: center;
   background-color: #000000;
 }
@@ -78,6 +79,10 @@ section{
     margin-left: 50px;
 }
 
+.menubtn{
+  color: #f8f32b;
+}
+
 .menubtn:hover{
   color: #ffffff;
   transition: 0.5s;
@@ -85,8 +90,7 @@ section{
 
 #fixMenubtn{
   position: absolute;
-  height: 5%;
-  width: 10%;
+  left: 5px;
 }
 
 a{
