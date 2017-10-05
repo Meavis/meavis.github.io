@@ -94,13 +94,15 @@ section{
   right: 0;
   background-color: #111;
   width: 200px;
-  padding: 5px;
+  padding: 5px 5px 5px 8px;
 }
 
 #projectnav a{
   display: block;
   color: #818181;
   text-decoration: none;
+  font-size: 17px;
+  padding-top: 6px;
   transition: 0.5s;
 }
 
