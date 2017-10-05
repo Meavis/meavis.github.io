@@ -94,6 +94,7 @@ section{
   right: 0;
   background-color: #111;
   width: 200px;
+  padding: 5px;
 }
 
 #projectnav a{
@@ -132,5 +133,9 @@ a:hover{
 
 h1{
   font-size: 300%;
+  color: #ffffff;
+}
+
+h3{
   color: #ffffff;
 }
