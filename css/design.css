@@ -7,7 +7,8 @@
 body{
   background-color: #d7263d;
   font-family: "Lucida Console", Monaco, monospace;
-  transition: margin-left .5s;
+  /*code voor transition schuiven inhoud
+  transition: margin-left .5s;*/
 }
 
 #main{
