@@ -111,11 +111,11 @@ section{
 }
 
 .menubtn{
-  color: #f8f32b;
+  color: #818181;
 }
 
 .menubtn:hover{
-  color: #ffffff;
+  color: #f1f1f1;
   transition: 0.5s;
 }
 
