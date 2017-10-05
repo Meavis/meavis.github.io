@@ -11,5 +11,4 @@ function closeNav() {
     document.body.style.marginLeft= "0";
     document.getElementById("main").style.opacity = "1";
     document.getElementById("fixMenubtn").style.opacity = "1";
-    //document.body.style.backgroundColor = "#8d99ae";
 }
