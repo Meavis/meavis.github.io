@@ -125,6 +125,10 @@ section{
   top: 5px;
 }
 
+.img-round{
+  border-radius: 50%;
+}
+
 a{
   color: #f8f32b;
 }
