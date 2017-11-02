@@ -143,6 +143,10 @@ a:hover{
   color: #ffffff;
 }
 
+.currentlink{
+  color: #ffffff;
+}
+
 h1{
   font-size: 300%;
   color: #ffffff;
