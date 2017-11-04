@@ -5,7 +5,8 @@
 }
 
 body{
-  background-color: #d7263d;
+
+  background-color: #d7263d /*#fcf8d3*/;
   font-family: "Lucida Console", Monaco, monospace;
   /*code voor transition schuiven inhoud*/
   transition: margin-left .5s;
@@ -80,6 +81,10 @@ section{
   color: #f1f1f1;
 }
 
+#sidenav .currentlink{
+  color: #f1f1f1;
+}
+
 #sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -107,6 +112,10 @@ section{
 }
 
 #projectnav a:hover{
+  color: #f1f1f1;
+}
+
+#projectnav .currentlink{
   color: #f1f1f1;
 }
 
