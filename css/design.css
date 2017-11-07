@@ -30,6 +30,14 @@ header{
   line-height: 150px;
 }
 
+#logo{
+  height: 130px;
+  width: auto;
+  vertical-align: middle;
+  position: relative;
+  top: 65px;
+}
+
 footer{
   position: absolute;
   bottom: 0;
@@ -132,12 +140,6 @@ section{
   position: absolute;
   left: 5px;
   top: 5px;
-}
-
-#logo{
-  height: 130px;
-  width: auto;
-  vertical-align: middle;
 }
 
 .img-round{
