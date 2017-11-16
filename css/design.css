@@ -17,6 +17,10 @@ body{
   margin-bottom: 23px;
 }
 
+.homepage{
+  background-color: #0f0f0f;
+}
+
 @media screen and (max-height: 450px) {
   #sidenav {padding-top: 15px;}
   #sidenav a {font-size: 18px;}
