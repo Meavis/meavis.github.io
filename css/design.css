@@ -47,6 +47,12 @@ header{
   padding-top: 15px;
 }
 
+#homeTitle{
+  position: relative;
+  top: 50%;
+  right: 50%;
+}
+
 footer{
   position: fixed;
   bottom: 0;
