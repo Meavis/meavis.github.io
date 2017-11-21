@@ -153,6 +153,14 @@ section{
   transition: 0.5s;
 }
 
+.menubtnHome{
+  color: #f8f32b;
+}
+
+.menubtnHome:hover{
+  color: #ffffff;
+}
+
 #fixMenubtn{
   position: fixed;
   left: 5px;
