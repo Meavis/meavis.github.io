@@ -2,12 +2,12 @@
   margin: 0px;
   pading: 0px;
   color: #000000;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body{
 
   background-color: #d7263d /*#fcf8d3*/;
-  font-family: "Lucida Console", Monaco, monospace;
   /*code voor transition schuiven inhoud*/
   transition: margin-left .5s;
 }
@@ -45,6 +45,7 @@ header{
 
 #title{
   padding-top: 15px;
+  font-family: 'Vollkorn SC', serif;
 }
 
 #homeTitle{
@@ -53,7 +54,7 @@ header{
   text-align: center;
   width: 100%;
   font-size: 600%;
-  font-family: 'Lobster', cursive;
+  font-family: 'Vampiro One', cursive;
 }
 
 footer{
