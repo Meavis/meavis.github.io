@@ -122,15 +122,6 @@ section{
   transition: 0.5s;
 }
 
-/* Side navigation menubutton homepage */
-.menubtnHome{
-  color: #f8f32b;
-}
-
-.menubtnHome:hover{
-  color: #ffffff;
-}
-
 /* Side naigation menu */
 #sideNav{
   position: fixed;
@@ -176,6 +167,35 @@ section{
   margin-left: 50px;
 
   font-size: 36px;
+}
+
+/* Side navigation menubutton homepage */
+.menubtnHome{
+  color: #f8f32b;
+}
+
+.menubtnHome:hover{
+  color: #ffffff;
+}
+
+/* Menu homepage */
+#homeNav{
+  top: 20%;
+
+  text-align: center;
+}
+
+#homeNav a{
+  color: #f8f32b;
+
+  text-decoration: none;
+  font-size: 25px;
+
+  transition: 0.5s;
+}
+
+#homeNav a:hover{
+  color: #ffffff;
 }
 
 /* Project navigation menu */
