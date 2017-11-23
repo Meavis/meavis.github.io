@@ -6,7 +6,6 @@
 }
 
 body{
-
   background-color: #d7263d /*#fcf8d3*/;
   /*code voor transition schuiven inhoud*/
   transition: margin-left .5s;
@@ -22,8 +21,8 @@ body{
 }
 
 @media screen and (max-height: 450px) {
-  #sidenav {padding-top: 15px;}
-  #sidenav a {font-size: 18px;}
+  #sideNav {padding-top: 15px;}
+  #sideNav a {font-size: 18px;}
 }
 
 header{
@@ -81,7 +80,7 @@ section{
   text-align: justify;
 }
 
-#sidenav{
+#sideNav{
   height: 100%;
   width: 0;
   position: fixed;
@@ -94,7 +93,7 @@ section{
   padding-top: 30px;
 }
 
-#sidenav a{
+#sideNav a{
   padding: 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
@@ -103,15 +102,15 @@ section{
   transition: 0.5s;
 }
 
-#sidenav a:hover{
+#sideNav a:hover{
   color: #f1f1f1;
 }
 
-#sidenav .currentlink{
+#sideNav .currentlink{
   color: #f1f1f1;
 }
 
-#sidenav .closebtn {
+#sideNav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
@@ -119,7 +118,7 @@ section{
     margin-left: 50px;
 }
 
-#projectnav{
+#projectNav{
   position: absolute;
   top: 153px;
   right: 0;
@@ -128,7 +127,7 @@ section{
   padding: 5px 5px 5px 8px;
 }
 
-#projectnav a{
+#projectNav a{
   display: block;
   color: #818181;
   text-decoration: none;
@@ -137,11 +136,11 @@ section{
   transition: 0.5s;
 }
 
-#projectnav a:hover{
+#projectNav a:hover{
   color: #f1f1f1;
 }
 
-#projectnav .currentlink{
+#projectNav .currentlink{
   color: #f1f1f1;
 }
 
