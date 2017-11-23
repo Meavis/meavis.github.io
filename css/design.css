@@ -1,19 +1,23 @@
 *{
   margin: 0px;
   pading: 0px;
+
   color: #000000;
+
   font-family: 'Montserrat', sans-serif;
 }
 
 body{
   background-color: #d7263d /*#fcf8d3*/;
+
   /*code voor transition schuiven inhoud*/
   transition: margin-left .5s;
 }
 
 #main{
-  transition: opacity .5s;
   margin-bottom: 23px;
+
+  transition: opacity .5s;
 }
 
 .homepage{
@@ -26,31 +30,38 @@ body{
 }
 
 header{
-  background-color: #02182b;
-  background-size: contain;
   width: 100%;
   height: 150px;
-  text-align: center;
   margin-bottom: 65px;
+
+  background-color: #02182b;
+  background-size: contain;
+
+  text-align: center;
 }
 
 #logo{
+  position: relative;
+
   height: 130px;
   width: auto;
+
   vertical-align: middle;
-  position: relative;
 }
 
 #title{
   padding-top: 15px;
+
   font-family: 'Vollkorn SC', serif;
 }
 
 #homeTitle{
   position: absolute;
   top: 40%;
-  text-align: center;
+
   width: 100%;
+
+  text-align: center;
   font-size: 600%;
   font-family: 'Vampiro One', cursive;
 }
@@ -58,10 +69,13 @@ header{
 footer{
   position: fixed;
   bottom: 0;
+
   width: 100%;
   height: 20px;
-  text-align: center;
+
   background-color: #000000;
+
+  text-align: center;
   line-height: 20px;
 }
 
@@ -71,34 +85,41 @@ footer p{
 
 section{
   width: 750px;
-  border: 2px;
-  border-style: solid;
+  border: 2px, solid, #011936;
+  /*border-style: solid;
   border-color: #011936;
-  border-radius: 0 25px;
+  border-radius: 0 25px;*/
   margin: 3px auto;
   padding: 5px 10px;
+
   text-align: justify;
 }
 
 #sideNav{
-  height: 100%;
-  width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
+
+  height: 100%;
+  width: 0;
   padding-top: 30px;
+  overflow-x: hidden;
+
+  background-color: #111;
+
+  transition: 0.5s;
 }
 
 #sideNav a{
   padding: 8px 8px 32px;
+  display: block;
+
+  color: #818181;
+
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
-  display: block;
+
   transition: 0.5s;
 }
 
@@ -111,28 +132,35 @@ section{
 }
 
 #sideNav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+  position: absolute;
+  top: 0;
+  right: 25px;
+
+  margin-left: 50px;
+
+  font-size: 36px;
 }
 
 #projectNav{
   position: absolute;
   top: 153px;
   right: 0;
-  background-color: #111;
+
   width: 200px;
   padding: 5px 5px 5px 8px;
+
+  background-color: #111;
 }
 
 #projectNav a{
   display: block;
+  padding-top: 6px;
+
   color: #818181;
+
   text-decoration: none;
   font-size: 17px;
-  padding-top: 6px;
+
   transition: 0.5s;
 }
 
@@ -150,6 +178,7 @@ section{
 
 .menubtn:hover{
   color: #f1f1f1;
+
   transition: 0.5s;
 }
 
@@ -173,6 +202,7 @@ section{
 
 a{
   color: #f8f32b;
+
   text-decoration: none;
 }
 
@@ -185,8 +215,9 @@ a:hover{
 }
 
 h1{
-  font-size: 250%;
   color: #ffffff;
+  
+  font-size: 250%;
 }
 
 h2{
