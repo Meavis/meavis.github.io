@@ -180,12 +180,17 @@ section{
 
 /* Menu homepage */
 #homeNav{
-  top: 20%;
+  position: absolute;
+  top: 22%;
+
+  width: 100%;
 
   text-align: center;
 }
 
 #homeNav a{
+  margin-right: 30px;
+
   color: #f8f32b;
 
   text-decoration: none;
