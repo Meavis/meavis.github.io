@@ -1,3 +1,4 @@
+/* Universal */
 *{
   margin: 0px;
   pading: 0px;
@@ -7,6 +8,11 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+@media screen and (max-height: 450px) {
+  #sideNav {padding-top: 15px;}
+  #sideNav a {font-size: 18px;}
+}
+
 body{
   background-color: #d7263d /*#fcf8d3*/;
 
@@ -14,36 +20,14 @@ body{
   transition: margin-left .5s;
 }
 
+/* Content page (without footer and header) */
 #main{
   margin-bottom: 23px;
 
   transition: opacity .5s;
 }
 
-@media screen and (max-height: 450px) {
-  #sideNav {padding-top: 15px;}
-  #sideNav a {font-size: 18px;}
-}
-
-/* Homepage */
-
-.homepage{
-  background-color: #0f0f0f;
-}
-
-#homeTitle{
-  position: absolute;
-  top: 40%;
-
-  width: 100%;
-
-  text-align: center;
-  font-size: 600%;
-  font-family: 'Vampiro One', cursive;
-}
-
-/* Universal (not homepage) */
-
+/* Header and logo */
 header{
   width: 100%;
   height: 150px;
@@ -64,12 +48,14 @@ header{
   vertical-align: middle;
 }
 
+/* Page title */
 #title{
   padding-top: 15px;
 
   font-family: 'Vollkorn SC', serif;
 }
 
+/* Footer */
 footer{
   position: fixed;
   bottom: 0;
@@ -87,6 +73,7 @@ footer p{
   color: #ffffff;
 }
 
+/* Page text */
 section{
   width: 750px;
   border: 2px;
@@ -99,9 +86,32 @@ section{
   text-align: justify;
 }
 
+/* Homepage */
+
+.homepage{
+  background-color: #0f0f0f;
+}
+
+#homeTitle{
+  position: absolute;
+  top: 40%;
+
+  width: 100%;
+
+  text-align: center;
+  font-size: 600%;
+  font-family: 'Vampiro One', cursive;
+}
+
 /* Navigation */
 
-/* Side navigation menu */
+/* Side navigation menubutton */
+#fixMenubtn{
+  position: fixed;
+  left: 5px;
+  top: 5px;
+}
+
 .menubtn{
   color: #818181;
 }
@@ -112,6 +122,16 @@ section{
   transition: 0.5s;
 }
 
+/* Side navigation menubutton homepage */
+.menubtnHome{
+  color: #f8f32b;
+}
+
+.menubtnHome:hover{
+  color: #ffffff;
+}
+
+/* Side naigation menu */
 #sideNav{
   position: fixed;
   z-index: 1;
@@ -190,24 +210,12 @@ section{
   color: #f1f1f1;
 }
 
-.menubtnHome{
-  color: #f8f32b;
-}
-
-.menubtnHome:hover{
-  color: #ffffff;
-}
-
-#fixMenubtn{
-  position: fixed;
-  left: 5px;
-  top: 5px;
-}
-
+/* Images */
 .img-round{
   border-radius: 50%;
 }
 
+/* Links */
 a{
   color: #f8f32b;
 
@@ -222,6 +230,7 @@ a:hover{
   color: #ffffff;
 }
 
+/* Headlines */
 h1{
   color: #ffffff;
 
