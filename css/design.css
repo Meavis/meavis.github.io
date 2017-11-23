@@ -20,14 +20,29 @@ body{
   transition: opacity .5s;
 }
 
-.homepage{
-  background-color: #0f0f0f;
-}
-
 @media screen and (max-height: 450px) {
   #sideNav {padding-top: 15px;}
   #sideNav a {font-size: 18px;}
 }
+
+/* Homepage */
+
+.homepage{
+  background-color: #0f0f0f;
+}
+
+#homeTitle{
+  position: absolute;
+  top: 40%;
+
+  width: 100%;
+
+  text-align: center;
+  font-size: 600%;
+  font-family: 'Vampiro One', cursive;
+}
+
+/* Universal (not homepage) */
 
 header{
   width: 100%;
@@ -53,17 +68,6 @@ header{
   padding-top: 15px;
 
   font-family: 'Vollkorn SC', serif;
-}
-
-#homeTitle{
-  position: absolute;
-  top: 40%;
-
-  width: 100%;
-
-  text-align: center;
-  font-size: 600%;
-  font-family: 'Vampiro One', cursive;
 }
 
 footer{
@@ -93,6 +97,19 @@ section{
   padding: 5px 10px;
 
   text-align: justify;
+}
+
+/* Navigation */
+
+/* Side navigation menu */
+.menubtn{
+  color: #818181;
+}
+
+.menubtn:hover{
+  color: #f1f1f1;
+
+  transition: 0.5s;
 }
 
 #sideNav{
@@ -141,6 +158,7 @@ section{
   font-size: 36px;
 }
 
+/* Project navigation menu */
 #projectNav{
   position: absolute;
   top: 153px;
@@ -170,16 +188,6 @@ section{
 
 #projectNav .currentlink{
   color: #f1f1f1;
-}
-
-.menubtn{
-  color: #818181;
-}
-
-.menubtn:hover{
-  color: #f1f1f1;
-
-  transition: 0.5s;
 }
 
 .menubtnHome{
