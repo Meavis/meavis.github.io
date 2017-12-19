@@ -196,11 +196,15 @@ section{
   text-decoration: none;
   font-size: 25px;
 
-  transition: 0.5s;
+  transition: .5s;
 }
 
 #homeNav a:hover{
+  display: inline-block;
+
   color: #ffffff;
+
+  transform: translate(0, -10px);
 }
 
 /* Project navigation menu */
