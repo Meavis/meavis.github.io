@@ -114,7 +114,7 @@ section{
 
   text-align: center;
   font-size: 600%;
-  font-family: 'Vampiro One', cursive;
+  font-family: 'Vampiro One', sans-serif;
 }
 
 /* Navigation */
@@ -282,7 +282,7 @@ h1{
 
 h2{
   font-size: 175%;
-  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Zilla Slab Highlight', serif;
 }
 
 h3{
