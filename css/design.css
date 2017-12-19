@@ -39,6 +39,7 @@ body{
   margin-bottom: 23px;
 
   transition: opacity .5s;
+  overflow-x: hidden;
 }
 
 /* Header and logo */
