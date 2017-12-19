@@ -15,7 +15,11 @@
 
   font-family: 'Montserrat', sans-serif;
 
+  /*
+  Wanneer gebruikt wordt doet het menu van de testpage raar
+
   overflow-x: hidden;
+  */
 }
 
 @media screen and (max-height: 450px) {
