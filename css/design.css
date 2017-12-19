@@ -22,7 +22,7 @@
 }
 
 body{
-  background-color: #d7263d /*#fcf8d3*/;
+  background-color: #8d99ae;
 
   /*code voor transition schuiven inhoud*/
   transition: margin-left .5s;
@@ -122,13 +122,13 @@ section{
 }
 
 .menubtn{
-  color: #818181;
+  color: #f1f1f1;
 
   transition: 0.5s;
 }
 
 .menubtn:hover{
-  color: #f1f1f1;
+  color: #818181;
 }
 
 /* Side naigation menu */
