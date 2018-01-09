@@ -13,3 +13,8 @@ function closeNav() {
     document.getElementById("main").style.opacity = "1";
     document.getElementById("fixMenubtn").style.opacity = "1";
 }
+
+// work in progress
+var colors = ['#93032e', '#fffb46', '#cce3de', '#3c6e71', '#731963', '#5863f8', '#09824f'];
+var random_color = colors[Math.floor(Math.random() * colors.length)];
+document.getElementById('title').style.color = random_color;
