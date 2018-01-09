@@ -48,6 +48,7 @@ header{
   text-align: center;
 }
 
+/*
 #logo{
   position: relative;
 
@@ -56,10 +57,12 @@ header{
 
   vertical-align: middle;
 }
+*/
 
 /* Page title */
 #title{
-  padding-top: 15px;
+  /*padding-top: 15px;*/
+  line-height: 150px;
 
   font-family: 'Vollkorn SC', serif;
 }
