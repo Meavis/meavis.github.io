@@ -251,7 +251,7 @@ section{
 }
 
 /* Project grid */
-div .double-color{
+.double-color{
   width: 125px;
   height: 175px;
   margin: 3px;
@@ -259,7 +259,7 @@ div .double-color{
   background-color: #000000;
 }
 
-div .double-color::before{
+.double-color::before{
   top: 50%;
   right: 0;
   bottom: 0;
