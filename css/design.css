@@ -256,15 +256,17 @@ section{
   height: 175px;
   margin: 3px;
 
-  background-color: #000000;
 }
 
 .double-color::before{
+  z-index: -1;
+
   top: 50%;
   right: 0;
   bottom: 0;
   left: 0;
 
+  background-color: #000000;
 }
 
 .link-project{
