@@ -17,4 +17,4 @@ function closeNav() {
 // work in progress
 var colors = ['#93032e', '#fffb46', '#cce3de', '#3c6e71', '#731963', '#5863f8', '#09824f'];
 var random_color = colors[Math.floor(Math.random() * colors.length)];
-document.getElementById('title').style.color = random_color;
+document.getElementByClass('link-project').style.background-color = random_color;
