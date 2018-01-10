@@ -256,6 +256,9 @@ section{
   height: 175px;
   margin: 3px;
 
+  position: relative;
+  z-index: 9;
+  background: green;
 }
 
 .double-color::before{
@@ -266,7 +269,9 @@ section{
   bottom: 0;
   left: 0;
 
-  background-color: #000000;
+  content: "";
+  position: absolute;
+  background: red;
 }
 
 .link-project{
