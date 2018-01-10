@@ -99,7 +99,6 @@ section{
 }
 
 /* Homepage */
-
 .homepage{
   background-color: #0f0f0f;
 }
@@ -249,6 +248,27 @@ section{
 
 #projectNav .currentlink{
   color: #f1f1f1;
+}
+
+/* Project grid */
+div .double-color{
+  width: 125px;
+  height: 175px;
+  margin: 3px;
+
+  background-color: #000000;
+}
+
+div .double-color::before{
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  background-color: #000000; 
+}
+
+.link-project{
 }
 
 /* Images */
