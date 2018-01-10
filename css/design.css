@@ -252,16 +252,18 @@ section{
 
 /* Project grid */
 .double-color{
+  position: relative;
+  z-index: 1;
+
   width: 125px;
   height: 175px;
   margin: 3px;
 
-  position: relative;
-  z-index: 9;
-  background: green;
+  background-color: #ffffff;
 }
 
 .double-color::before{
+  position: absolute;
   z-index: -1;
 
   top: 50%;
@@ -269,9 +271,9 @@ section{
   bottom: 0;
   left: 0;
 
+  background-color: #000000;
+
   content: "";
-  position: absolute;
-  background: red;
 }
 
 .link-project{
